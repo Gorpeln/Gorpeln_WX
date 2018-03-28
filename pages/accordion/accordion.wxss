@@ -1,0 +1,18 @@
+/* pages/accordion/accordion.wxss */
+.tui-accordion-content{
+  margin: 10px;
+  border: 1px solid #c8c7cc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.tui-accordion-from{padding-left: 0;}
+.tui-accordion-from input{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.tui-input-name{
+  height: 80rpx;
+  float: left;
+  width: 200rpx;
+}

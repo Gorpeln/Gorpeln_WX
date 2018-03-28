@@ -1,0 +1,27 @@
+<!--pages/navbar/navbar.wxml-->
+<view style="height:100%;position:fixed;width:100%;">
+  <scroll-view scroll-y="false"  bindscroll="scroll" style="height:100%;">
+  <!-- 改变位置，去掉多余的view，直接改变背景色的透明度实现透明渐变 -->
+    <view class="page-group" style="background-color: rgba(138, 43, 226,{{scrollTop / 400 > 0.9 ? 0.9 : scrollTop / 400}});">
+      <view class="page-nav-list"><text>首页</text></view>
+      <view class="page-nav-list"><text>活动</text></view>
+      <view class="page-nav-list"><text>菜单</text></view>
+      <view class="page-nav-list"><text>我的</text></view>
+    </view>
+    <view class="page-banner">
+      banner
+    </view>
+    <view class="goods-list">
+      goods-list1
+    </view>
+    <view class="goods-list list2">
+      goods-list2
+    </view>
+    <view class="goods-list list3">
+      goods-list3
+    </view>
+    <view class="goods-list list4">
+      goods-list4
+    </view>
+  </scroll-view>
+</view>

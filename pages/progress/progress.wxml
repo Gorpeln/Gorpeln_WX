@@ -1,0 +1,36 @@
+<!--pages/progress/progress.wxml-->
+<view class="tui-content">
+  <view class="tui-menu-list">
+    <text>show-info在进度条右侧显示百分比</text>
+    <progress percent="50" show-info />
+  </view>
+  <view class="tui-menu-list">
+    <text>stroke-width进度条线的宽度，单位px</text>
+    <progress percent="50" stroke-width="12" show-info/>
+  </view>
+  <view class="tui-menu-list">
+    <text>color进度条颜色</text>
+    <progress percent="50" color="red" show-info/>
+  </view>
+  <view class="tui-menu-list">
+    <text>active进度条从左往右的动画</text>
+    <progress percent="50" active show-info/>
+  </view>
+  <view class="tui-menu-list">
+    <text>backgroundColor未选择的进度条的颜色</text>
+    <progress percent="50" backgroundColor="blue" active show-info/>
+  </view>
+  <view class="tui-menu-list">
+    <text>动态设置进度条进度</text>
+    <progress percent="{{index}}" show-info/>
+  </view>
+  <view class="tui-tabbar-content">
+    <view class="tui-tabbar-group">
+      <text data-id="10" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 10 ? 'tui-active' : ''}}">10%</text>
+      <text data-id="30" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 30 ? 'tui-active' : ''}}">30%</text>
+      <text data-id="50" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 50 ? 'tui-active' : ''}}">50%</text>
+      <text data-id="70" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 70 ? 'tui-active' : ''}}">70%</text>
+      <text data-id="90" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 90 ? 'tui-active' : ''}}">90%</text>
+    </view>
+  </view>
+</view>

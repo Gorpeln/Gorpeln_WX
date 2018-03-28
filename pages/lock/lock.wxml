@@ -1,0 +1,7 @@
+<!--pages/lock/lock.wxml-->
+<view class="container">
+    <view class="reset" bindtap="resetPwd">重置密码</view>
+    <view class="title">{{title}}</view>
+    <canvas canvas-id="canvas" class="canvas" bindtouchend="onTouchEnd"
+      bindtouchstart="onTouchStart" bindtouchmove="onTouchMove"></canvas>
+</view>

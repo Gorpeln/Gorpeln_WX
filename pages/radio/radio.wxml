@@ -1,0 +1,11 @@
+<!--pages/radio/radio.wxml-->
+<view class="tui-content">
+  <radio-group class="radio-group" bindchange="radioChange">
+    <label class="radio" wx:for="{{items}}">
+      <view class="tui-menu-list"><radio color="#007aff" value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}</view>
+    </label>
+  </radio-group>
+  <view class="tui-show-name">
+    {{radioStr}}
+  </view>
+</view>

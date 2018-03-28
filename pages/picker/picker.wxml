@@ -1,0 +1,32 @@
+<!--pages/picker/picker.wxml-->
+<view class="tui-picker-content">
+  <view class="tui-picker-name">一级选择实例</view>
+  <picker bindchange="changeCountry"  value="{{countryIndex}}" range="{{countryList}}">
+    <view class="tui-picker-detail">{{countryList[countryIndex]}}</view>
+  </picker>
+</view>
+
+<view class="tui-picker-content">
+  <view class="tui-picker-name">省市区三级联动选择</view>
+  <picker bindchange="changeRegin" mode = "region" value="{{region}}">
+    <view class="tui-picker-detail">{{region[0]}} - {{region[1]}} - {{region[2]}}</view>
+  </picker>
+</view>
+
+<view class="tui-picker-content">
+  <view class="tui-picker-name">自定义二级联动选择</view>
+  <picker bindchange="changeMultiPicker" mode = "multiSelector" value="{{multiIndex}}" range="{{multiArray}}">
+    <view class="tui-picker-detail">
+    {{multiArray[0][multiIndex[0]]}} * {{multiArray[1][multiIndex[1]]}} = {{multiArray[0][multiIndex[0]] * multiArray[1][multiIndex[1]]}}
+    </view>
+  </picker>
+</view>
+
+<view class="tui-picker-content">
+  <view class="tui-picker-name">自定义三级联动选择</view>
+  <picker bindchange="changeMultiPicker3" mode = "multiSelector" value="{{multiIndex3}}" range="{{multiArray3}}">
+    <view class="tui-picker-detail">
+    {{multiArray3[0][multiIndex3[0]]}} * {{multiArray3[1][multiIndex3[1]]}} * {{multiArray3[2][multiIndex3[2]]}} = {{multiArray3[0][multiIndex3[0]] * multiArray3[1][multiIndex3[1]] * multiArray3[2][multiIndex3[2]]}}
+    </view>
+  </picker>
+</view>

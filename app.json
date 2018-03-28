@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/table/table",
+    "pages/indexed/indexed",
+    "pages/accordion/accordion",
+    "pages/grid/grid",
+    "pages/list/list",
+    "pages/dtpicker/dtpicker",
+    "pages/picker/picker",
+    "pages/button/button",
+    "pages/tabbar/tabbar",
+    "pages/progress/progress",
+    "pages/slider/slider",
+    "pages/switch/switch",
+    "pages/cardview/cardview",
+    "pages/checkbox/checkbox",
+    "pages/radio/radio",
+    "pages/dialog/dialog",
+    "pages/pull/pull",
+    "pages/actionsheet/actionsheet",
+    "pages/swiper/swiper",
+    "pages/offcanvas/offcanvas",
+    "pages/gallerytable/gallerytable",
+    "pages/gallerylist/gallerylist",
+    "pages/navbar/navbar",
+    "pages/number/number",
+    "pages/previewimage/previewimage",
+    "pages/lock/lock"
+  ],
+  "window": {
+    "navigationBarTitleText": "Gorpeln 博客"
+  }
+}

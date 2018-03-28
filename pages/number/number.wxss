@@ -1,0 +1,20 @@
+/* pages/number/number.wxss */
+.tui-number-group{
+  display: table;
+  table-layout: fixed;
+  width: 300rpx;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  overflow: hidden;
+}
+.tui-number-cell{
+  display: table-cell;
+  line-height: 1.7;
+  border-radius: 0;
+}
+button::after{
+  border-bottom: none;
+  border-top: none;
+  border-radius: 0;
+}

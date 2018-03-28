@@ -1,0 +1,41 @@
+<!--pages/gallerylist/gallerylist.wxml-->
+<view class="tui-list-box">
+  <view class="tui-list-head">图在左边</view>
+  <view class="tui-gallery-list" wx:for="{{galleryList}}">
+    <image class="gallery-img tui-fl" src="{{item.image}}"></image>
+    <view class="gallery-box gallery-left">
+      <text class="gallery-name">{{item.title}}</text>
+      <text class="gallery-detail">{{item.detail}}</text>
+    </view>
+  </view>
+</view>
+<view class="tui-list-box">
+  <view class="tui-list-head">图在右边</view>
+  <view class="tui-gallery-list" wx:for="{{galleryList}}">
+    <image class="gallery-img tui-fr" src="{{item.image}}"></image>
+    <view class="gallery-box gallery-right">
+      <text class="gallery-name">{{item.title}}</text>
+      <text class="gallery-detail">{{item.detail}}</text>
+    </view>
+  </view>
+</view>
+<view class="tui-list-box">
+  <view class="tui-list-head">图在左边，右侧箭头</view>
+  <view class="tui-gallery-list tui-youjiantou" wx:for="{{galleryList}}">
+    <image class="gallery-img tui-fl" src="{{item.image}}"></image>
+    <view class="gallery-box gallery-left gallery-right">
+      <text class="gallery-name">{{item.title}}</text>
+      <text class="gallery-detail">{{item.detail}}</text>
+    </view>
+  </view>
+</view>
+<view class="tui-list-box-raduis">
+  <view class="tui-list-head">圆角列表</view>
+  <view class="tui-gallery-list" wx:for="{{galleryList}}">
+    <image class="gallery-img tui-fr" src="{{item.image}}"></image>
+    <view class="gallery-box gallery-right">
+      <text class="gallery-name">{{item.title}}</text>
+      <text class="gallery-detail">{{item.detail}}</text>
+    </view>
+  </view>
+</view>

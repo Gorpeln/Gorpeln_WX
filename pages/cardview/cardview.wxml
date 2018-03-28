@@ -1,0 +1,29 @@
+<!--pages/cardview/cardview.wxml-->
+<view class="tui-card">
+  <view class="tui-card-content">
+    这是一个最简单的卡片视图控件；卡片视图常用来显示完整独立的一段信息，比如一篇文章的预览图、作者信息、点赞数量等
+  </view>
+</view>
+
+<view class="tui-card">
+  <view class="tui-card-head">
+    页眉
+  </view>
+  <view class="tui-card-content">
+    这是一个最简单的卡片视图控件；卡片视图常用来显示完整独立的一段信息，比如一篇文章的预览图、作者信息、点赞数量等
+  </view>
+  <view class="tui-card-foot">
+    页脚
+  </view>
+</view>
+
+<view class="tui-card">
+  <image class="tui-img" src="../../src/images/3.jpg" mode="scaleToFill"></image>
+  <view class="tui-card-content">
+    这是一个最简单的卡片视图控件；卡片视图常用来显示完整独立的一段信息，比如一篇文章的预览图、作者信息、点赞数量等
+  </view>
+  <view class="tui-card-foot">
+    <text class="tui-card-btn">Like</text>
+    <text class="tui-card-btn tui-fr">Read more</text>
+  </view>
+</view>

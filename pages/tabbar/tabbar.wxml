@@ -1,0 +1,19 @@
+<!--pages/tabbar/tabbar.wxml-->
+<import src="../../template/list.wxml"/>
+
+<view class="tui-tabbar-content">
+  <view class="tui-tabbar-group">
+    <text data-id="0" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 0 ? 'tui-active' : ''}}">已获得赏金</text>
+    <text data-id="1" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 1 ? 'tui-active' : ''}}">赏金在路上</text>
+    <text data-id="2" bindtap="changeTabbar" class="tui-tabbar-cell {{index == 2 ? 'tui-active' : ''}}">邀请失败</text>
+  </view>
+</view>
+<view class="tui-list-box {{index == 0 ? '' : 'tui-hide'}}">
+  <template wx:for="{{['选项卡一子选项 - 1','选项卡一子选项 -  2','选项卡一子选项 - 3','选项卡一子选项 - 4','选项卡一子选项 - 5','选项卡一子选项 - 6','选项卡一子选项 - 7','选项卡一子选项 - 8']}}" is="listNoneOnly" data="{{item}}"></template>
+</view>
+<view class="tui-list-box {{index == 1 ? '' : 'tui-hide'}}">
+  <template wx:for="{{['选项卡二子选项 - 1','选项卡二子选项 -  2','选项卡二子选项 - 3','选项卡二子选项 - 4','选项卡二子选项 - 5']}}" is="listNoneOnly" data="{{item}}"></template>
+</view>
+<view class="tui-list-box {{index == 2 ? '' : 'tui-hide'}}">
+  <template wx:for="{{['选项卡三子选项 - 1','选项卡三子选项 -  2','选项卡三子选项 - 3']}}" is="listNoneOnly" data="{{item}}"></template>
+</view>

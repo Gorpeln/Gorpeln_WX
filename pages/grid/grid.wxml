@@ -1,0 +1,41 @@
+<!--pages/grid/grid.wxml-->
+<view class="section">
+  <view class="tui-table-view">
+    <view class="tui-col-3">
+      <icon class="iconfont icon-shouye"></icon>
+      <view>Home</view>
+    </view>
+    <view class="tui-col-3">
+      <icon class="iconfont icon-xinfeng"></icon>
+      <view>Email</view>
+    </view>
+    <view class="tui-col-3">
+      <icon class="iconfont icon-duihuaxinxi"></icon>
+      <view>Chat</view>
+    </view>
+    <view class="tui-col-3">
+      <icon class="iconfont icon-dibiao"></icon>
+      <view>location</view>
+    </view>
+    <view class="tui-col-3">
+      <icon type="search" size='30'></icon>
+      <view>search</view>
+    </view>
+    <view class="tui-col-3">
+      <icon class="iconfont icon-dianhua"></icon>
+      <view>phone</view>
+    </view>
+    <view class="tui-col-3">
+      <icon class="iconfont icon-shezhi"></icon>
+      <view>setting</view>
+    </view>
+    <view class="tui-col-3">
+      <icon type="info" size='30' color='#797979'></icon>
+      <view>about</view>
+    </view>
+    <view class="tui-col-3">
+      <icon class="iconfont icon-gengduotianchong"></icon>
+      <view>more</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<!--tuis/offcanvas/offcanvas.wxml-->
+<view class="tui">
+    <view class="tui-bottom">
+        <view class="tui-content">
+            <view bindtap="chooseItem" data-text="{{item}}" wx:for-items="{{nav_list}}" class="tui-list">
+                <text>{{item}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="tui-top {{isOpen ? 'tui-state' : ''}}">
+      <view class="tui-mask {{isOpen ? '' : 'tui-hide'}}" bindtap="changeCanvas"></view>
+      <image class="left-nav" bindtap="changeCanvas" src="../../src/images/btn.png"></image>
+      <view class="tui-offcanvas">{{chooseList}}</view>
+    </view>
+</view>

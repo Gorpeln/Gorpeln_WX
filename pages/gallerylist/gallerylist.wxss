@@ -1,0 +1,28 @@
+/* pages/gallerylist/gallerylist.wxss */
+.gallery-img{
+  width: 150rpx;
+  height: 90rpx;
+}
+.gallery-box{
+  height: 90rpx;
+  overflow: hidden;
+}
+.gallery-name{
+  display: block;
+  height: 50rpx;
+  line-height: 50rpx;
+  overflow: hidden;
+  font-size: 35rpx;
+}
+.gallery-detail{
+  display: block;
+  height: 40rpx;
+  line-height: 40rpx;
+  overflow: hidden;
+  font-size: 30rpx;
+  color: #8f8f94;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.gallery-left{padding-left: 10px;}
+.gallery-right{padding-right: 10px;}

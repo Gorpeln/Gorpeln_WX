@@ -1,0 +1,14 @@
+/* pages/grid/grid.wxss */
+page{background-color: #efeff4;}
+.tui-table-view{
+  font-size: 0;
+  width: 100%;
+}
+.tui-col-3{
+  display: inline-block;
+  width: 33.33333333%;
+  text-align: center;
+  color: #797979;
+  padding: 40rpx 0;
+  font-size: 30rpx;
+}

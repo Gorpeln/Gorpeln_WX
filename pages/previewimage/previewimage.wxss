@@ -1,0 +1,6 @@
+/* pages/previewimage/previewimage.wxss */
+page{background-color: #efeff4;}
+.tui-preview-img{
+  width: 200rpx;
+  height: 120rpx;
+}

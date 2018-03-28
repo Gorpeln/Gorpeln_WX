@@ -1,0 +1,27 @@
+<!--pages/gallerytable/gallerytable.wxml-->
+<view class="tui-row">
+  <view class="tui-col tui-col-2">
+    <view class="gallery-box">
+      <image class="gallery-img" src="../../src/images/4.jpg"></image>
+      <text class="gallery-text">VUE实战</text>
+    </view>
+  </view>
+  <view class="tui-col tui-col-2">
+    <view class="gallery-box">
+      <image class="gallery-img" src="../../src/images/1.jpg"></image>
+      <text class="gallery-text">ES6学习之路</text>
+    </view>
+  </view>
+  <view class="tui-col tui-col-2">
+    <view class="gallery-box">
+      <image class="gallery-img" src="../../src/images/2.jpg"></image>
+      <text class="gallery-text">CSS实战</text>
+    </view>
+  </view>
+  <view class="tui-col tui-col-2">
+    <view class="gallery-box">
+      <image class="gallery-img" src="../../src/images/3.jpg"></image>
+      <text class="gallery-text">VUE学习之路</text>
+    </view>
+  </view>
+</view>

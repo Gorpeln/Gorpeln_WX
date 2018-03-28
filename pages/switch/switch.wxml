@@ -1,0 +1,27 @@
+ <!--pages/switch/switch.wxml-->
+<view class="tui-list-box">
+  <view class="tui-menu-list">
+    <text>状态：{{isChecked1}}</text>
+    <switch class="tui-fr" checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>状态：{{isChecked2}}</text>
+    <switch class="tui-fr" checked="{{isChecked2}}" bindchange="changeSwitch2"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>状态：{{isChecked3}}</text>
+    <switch class="tui-fr" color="#007aff" checked="{{isChecked3}}" bindchange="changeSwitch3"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>状态：{{isChecked4}}</text>
+    <switch class="tui-fr" color="#007aff" checked="{{isChecked4}}" bindchange="changeSwitch4"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>状态：{{isChecked5}}</text>
+    <switch class="tui-fr" type="checkbox" checked="{{isChecked5}}" bindchange="changeSwitch5"/>
+  </view>
+  <view class="tui-menu-list">
+    <text>状态：{{isChecked6}}</text>
+    <switch class="tui-fr" type="checkbox" checked="{{isChecked6}}" bindchange="changeSwitch6"/>
+  </view>
+</view>

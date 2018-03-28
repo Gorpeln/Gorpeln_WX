@@ -1,0 +1,5 @@
+/* pages/table/table.wxss */
+.icon-group{
+  padding: 30rpx;
+}
+.icon-group icon{margin-right: 10px;}

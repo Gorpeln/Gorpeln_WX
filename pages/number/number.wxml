@@ -1,0 +1,19 @@
+<!--pages/number/number.wxml-->
+<view class="tui-content">
+  <view class="tui-gallery-list">默认</view>
+  <view class="tui-gallery-list">
+    <view class="tui-number-group">
+      <button class="tui-number-cell" bindtap="nextNum">-</button>
+      <input class="tui-number-cell" type="number" value='{{number}}'></input>
+      <button class="tui-number-cell" bindtap="prevNum">+</button>
+    </view>
+  </view>
+  <view class="tui-gallery-list">限定最小值0,最大值10</view>
+  <view class="tui-gallery-list">
+    <view class="tui-number-group">
+      <button class="tui-number-cell" bindtap="nextNum1" disabled='{{disabled1}}'>-</button>
+      <input class="tui-number-cell" type="number" value='{{number1}}'></input>
+      <button class="tui-number-cell" bindtap="prevNum1" disabled='{{disabled2}}'>+</button>
+    </view>
+  </view>
+</view>

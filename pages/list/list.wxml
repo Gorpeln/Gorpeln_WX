@@ -1,0 +1,15 @@
+<!--pages/list/list.wxml-->
+<import src="../../template/list.wxml"/>
+
+<view class="tui-list-box">
+  <view class="tui-list-head">右侧无箭头</view>
+  <template wx:for="{{menu}}" is="listNone" data="{{item}}"></template>
+</view>
+<view class="tui-list-box">
+  <view class="tui-list-head">右侧有箭头</view>
+  <template wx:for="{{menu}}" is="list" data="{{item}}"></template>
+</view>
+<view class="tui-list-box-raduis">
+  <view class="tui-list-head">圆角列表</view>
+  <template wx:for="{{menu}}" is="list" data="{{item}}"></template>
+</view>

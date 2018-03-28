@@ -1,0 +1,7 @@
+<!--pages/previewimage/previewimage.wxml-->
+<view>
+  <button bindtap="previewImage" type="primary">图片上传预览</button>
+  <view class="tui-content"> 
+    <image class="tui-preview-img" wx:for="{{previewImageArr}}" bindtap="changePreview" data-src="{{item}}" src="{{item}}"></image>
+  </view>
+</view>

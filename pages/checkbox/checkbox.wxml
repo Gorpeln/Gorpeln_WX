@@ -1,0 +1,11 @@
+<!--pages/checkbox/checkbox.wxml-->
+<view class="tui-content">
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}">
+      <view class="tui-menu-list"><checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}</view>
+    </label>
+  </checkbox-group>
+  <view class="tui-show-name">
+    <text wx:for="{{checkArr}}"> {{item}} </text>
+  </view>
+</view>

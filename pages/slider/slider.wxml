@@ -1,0 +1,33 @@
+<!--pages/slider/slider.wxml-->
+<view class="tui-content">
+  <view class="tui-slider-head">设置step,当前设置步伐为5,当前值：{{slider1}}</view>
+  <view class="tui-slider-box">
+    <slider bindchange="changeSlider1" step="5" value="{{slider1}}"/>
+  </view>
+</view>
+<view class="tui-content">
+  <view class="tui-slider-head">是否在右侧显示当前值</view>
+  <view class="tui-slider-box">
+    <slider bindchange="changeSlider2" value="{{slider2}}" show-value/>
+  </view>
+</view>
+<view class="tui-content">
+  <view class="tui-slider-head">设置最大值、最小值</view>
+  <view class="tui-slider-box">
+    <slider bindchange="changeSlider3" min="20" max="90" value="{{slider3}}" show-value/>
+  </view>
+</view>
+<view class="tui-content">
+  <view class="tui-slider-head">滑动选择器设置名称</view>
+  <view class="tui-slider-box">
+    <view class="tui-fl">
+      选择
+    </view>
+    <view class="tui-fl">
+      {{slider4}}
+    </view>
+    <view style="overflow:hidden">
+      <slider bindchanging="changeSlider4" value="{{slider4}}"/>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+/* pages/button/button.wxss */
+.tui-btn-group{
+  padding: 10px;
+}
+.tui-btn-content{
+  height: 60px;
+  line-height: 60px;
+}
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}

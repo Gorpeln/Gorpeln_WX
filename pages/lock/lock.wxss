@@ -1,0 +1,20 @@
+/* pages/lock/lock.wxss */
+page {
+    background-color: #ddd;
+}
+.reset {
+    color: red;
+    font-size: 24rpx;
+    text-align: right;
+    margin: 30rpx 20rpx;
+}
+.title {
+    text-align: center;
+    color: #000;
+}
+.canvas {
+    width: 300px;
+    height: 300px;
+    margin: 100rpx auto;
+    background-color: #ddd;
+}

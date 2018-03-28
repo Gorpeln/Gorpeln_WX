@@ -1,0 +1,29 @@
+/* pages/navbar/navbar.wxss */
+.page-banner{height: 500rpx;background-color: greenyellow;padding: 20rpx;color:#fff;padding-top: 100rpx;}
+/*去掉多余的class，直接设置背景色为rgba格式*/
+.page-group{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: rgba(138, 43, 226,0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.page-nav-list{
+  padding:30rpx 0 ;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.goods-list{
+  height: 500rpx;
+  background-color: green;
+  padding: 20rpx;
+  color:#fff;
+}
+.list2{background-color: blue;}
+.list3{background-color: yellow;}
+.list4{background-color: red;}

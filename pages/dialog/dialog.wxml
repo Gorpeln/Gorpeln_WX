@@ -1,0 +1,24 @@
+<!--pages/dialog/dialog.wxml-->
+<view class="tui-content">
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="warnModal">警告消息框</text>
+  </view>
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="warnModalTrue">确认消息框</text>
+  </view>
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="showModalInput">输入对话框</text>
+  </view>
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="showToastAuto">自动消失提示框</text>
+  </view>
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="showToast">提交成功--自动消失提示框</text>
+  </view>
+  <view class="tui-show-name">
+    <text class="tui-card-btn" bindtap="showToastLoading">正在加载--自动消失提示框</text>
+  </view>
+  <view class="tui-show-name">
+    <text>{{msg}}</text>
+  </view>
+</view>

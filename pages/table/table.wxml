@@ -1,0 +1,32 @@
+<!--pages/table/table.wxml-->
+<!--微信小程序原生图标  -->
+<!--种类：'success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'  -->
+<view class="icon-group">微信小程序9种原生图标</view>
+<view class="icon-group">
+  <icon wx:for="{{typeList}}" type="{{item}}" size="40"></icon>
+</view>
+<view class="icon-group">微信小程序外部库引入图标</view>
+<view class="icon-group">
+  <icon class="iconfont icon-zhiding"></icon>
+  <icon class="iconfont icon-zuojiantou"></icon>
+  <icon class="iconfont icon-youjiantou"></icon>
+  <icon class="iconfont icon-shangjiantou"></icon>
+  <icon class="iconfont icon-xiajiantou1"></icon>
+  <icon class="iconfont icon-xiajiantou"></icon>
+</view>
+<view class="icon-group">
+  <icon class="iconfont icon-gengduotianchong"></icon>
+  <icon class="iconfont icon-erweima"></icon>
+  <icon class="iconfont icon-fenleiorguangchangorqita"></icon>
+  <icon class="iconfont icon-dibiao"></icon>
+  <icon class="iconfont icon-bangzhu"></icon>
+  <icon class="iconfont icon-xinfeng"></icon>
+</view> 
+<view class="icon-group">
+  <icon class="iconfont icon-duihuaxinxi"></icon>
+  <icon class="iconfont icon-sousuo"></icon>
+  <icon class="iconfont icon-shouye"></icon>
+  <icon class="iconfont icon-shezhi"></icon>
+  <icon class="iconfont icon-shanchu"></icon>
+  <icon class="iconfont icon-dianhua"></icon>
+</view>
